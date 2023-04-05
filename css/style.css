@@ -1,0 +1,16 @@
+[class*="col-"] {
+    background-color: rgb(65, 65, 183);
+    border: 1px solid rgb(255, 255, 255);
+    height: 50px;
+}
+
+section{
+    margin-bottom: 30px;
+}
+
+.nested{
+    background-color: green;
+    text-align: center;
+    padding: 10px 0;
+    margin: 5px 1px;
+}
