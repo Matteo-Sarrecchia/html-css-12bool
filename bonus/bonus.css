@@ -1,0 +1,15 @@
+[class*="col-"] {
+    background-color: blue;
+    height: 50px;
+    border: 1px solid white;
+}
+
+.row .row [class*="col-"] {
+    border: none;
+}
+
+.row .row [class*="col-"] div {
+    background-color: green;
+    margin: 10px;
+    height: 30px;
+}
